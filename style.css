@@ -1,6 +1,24 @@
+/* Paràmetres inicials i variables */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: red;
+}
+
+:root{
+  --bg-color-section1: #4C3A51;
+  --bg-color-section2: #774360;
+  --bg-color-section3: #B25068;
+  --bg-color-section4: #E7AB79;
+
+  --base-text-ligt: white;
+  --base-text-dark: black;
+}
+
+body{
+  background-color: var(--bg-color-section1);
+}
+img{
+  border-radius: 50%;
+  width: 100px;
 }
