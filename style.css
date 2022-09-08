@@ -11,14 +11,89 @@
   --bg-color-section3: #B25068;
   --bg-color-section4: #E7AB79;
 
-  --base-text-ligt: white;
-  --base-text-dark: black;
+  --base-text-ligt: #ffffff;
+  --base-text-dark: #000000;
 }
 
-body{
+
+/* Inici Hero section */
+.hero{
   background-color: var(--bg-color-section1);
+  color: var(--base-text-ligt);
+  font-size: 40px;
+  height: 100vh;
 }
-img{
-  border-radius: 50%;
-  width: 100px;
+
+nav{
+  display: flex;
+  justify-content: space-between;
 }
+
+ul {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 500px;
+}
+
+li{
+}
+
+a{
+  color: var(--base-text-ligt);
+  text-decoration: none;
+}
+
+.hero-text{
+  margin-left: 80px;
+}
+
+h1{
+  font-size: 90px;
+}
+
+.button{
+  display: flex;
+  background-color: var(--bg-color-section3);
+  border: none;
+  border-radius: 25px;
+  color: var(--base-text-ligt);
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* Final Hero section */
+
+
+/* Inici About Me section */
+.about-me-section{
+  background-color: var(--bg-color-section2);
+  height: 500px;
+}
+
+/* Final About Me section */
+
+
+/* Inici Projects section */
+.projects-section{
+  background-color: var(--bg-color-section3);
+  height: 500px;
+}
+
+/* Final Projects section */
+
+
+/* Inici Footer section */
+.footer-section{
+  background-color: var(--bg-color-section4);
+  height: 500px;
+}
+
+/* Final Footer section */
