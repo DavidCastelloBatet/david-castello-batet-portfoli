@@ -16,6 +16,10 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/308e48b010.js"
+            crossorigin="anonymus"
+        ></script>
         <script defer src="./js/index.js"></script>
     </head>
     <body>
@@ -28,11 +32,14 @@
                     alt="David Castelló - Logo"
                     title="David Castelló - Logo"
                 />
-                <ul>
+                <ul id="nav-list">
                     <li><a href="#about-me-section">About Me</a></li>
                     <li><a href="#projects-section">My Projects</a></li>
                     <li><a href="#footer-section">Contact Me</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
@@ -96,8 +103,6 @@
         </header>
         <!-- Final header/hero section -->
 
-        <!------------------------------->
-
         <main>
             <!-- Inici about-me-section -->
             <section id="about-me-section" class="about-me-section">
@@ -123,8 +128,6 @@
                 </div>
             </section>
             <!-- Final about-me-section -->
-
-            <!------------------------------->
 
             <!-- Inici projects-section -->
             <section id="projects-section" class="projects-section">
@@ -278,6 +281,15 @@
                 <span class="nom"> David Castelló Batet</span>, All Rights
                 Reserved
             </h3>
+            <p class="secure">
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img
+                        style="border: 0; width: 88px; height: 31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="¡CSS Válido!"
+                    />
+                </a>
+            </p>
         </footer>
         <!-- Inici footer-section -->
     </body>
