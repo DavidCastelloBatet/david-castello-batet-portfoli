@@ -15,8 +15,8 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="style.css" />
-        <script defer src="index.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script defer src="./js/index.js"></script>
     </head>
     <body>
         <!-- Inici header/hero section -->
@@ -29,20 +29,15 @@
                     title="David Castelló - Logo"
                 />
                 <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact me</li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
                 </ul>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>David Castelló Batet</h1>
                     <p>Junior Web Developer</p>
-                    <div class="button">
-                        <a href="./media/cv/EnglishCV.pdf" target="_blank"
-                            >English C.V.</a
-                        >
-                    </div>
                 </div>
                 <div class="social-media">
                     <a
@@ -100,8 +95,35 @@
             </div>
         </header>
         <!-- Final header/hero section -->
+
+        <!------------------------------->
+
         <main>
-            <section class="about-me-section"></section>
+            <!-- Inici about-me-section -->
+            <section class="about-me-section">
+                <div class="information">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello, my name is David and I am an enthusiastic web
+                        developer. Click on button and get to know me a little
+                        more.
+                    </p>
+                    <div class="button">
+                        <a href="./media/cv/EnglishCV.pdf" target="_blank"
+                            >Myself</a
+                        >
+                    </div>
+                </div>
+                <div class="headshot">
+                    <img
+                        src="./media/images/img-perfil.jpeg"
+                        alt="David's image"
+                        title="David's image"
+                    />
+                </div>
+            </section>
+            <!-- Final about-me-section -->
+
             <section class="projects-section"></section>
         </main>
         <footer class="footer-section"></footer>

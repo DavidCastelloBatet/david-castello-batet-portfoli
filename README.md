@@ -39,4 +39,6 @@ twitter: https://twitter.com/CastelloBatet
 github: https://github.com/DavidCastelloBatet
 
 ## Logos svg social-media
+icon-monster: https://iconmonstr.com/twitter-1-svg/
+
 

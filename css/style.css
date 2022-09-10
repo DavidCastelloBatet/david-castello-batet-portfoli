@@ -1,8 +1,8 @@
 /* Paràmetres inicials i variables */
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root{
@@ -20,6 +20,12 @@
 /* final Parametres inicials i variables */
 
 
+/***********************************************/
+/***********************************************/
+
+
+
+
 /* Inici Hero section */
 .hero{
   background-color: var(--bg-color-section1);
@@ -29,21 +35,22 @@
 }
 
 .logo{
+  border-radius: 50%;
   height: 150px;
   margin: 20px;
-  border-radius: 50%;
 }
 
 nav{
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 ul {
   display: flex;
-  font-size: 30px;
   justify-content: space-around;
+
+  font-size: 30px;
   list-style-type: none;
   width: 600px;
 }
@@ -53,62 +60,45 @@ li{
   text-decoration: none;
 }
 
-li:hover{
-  color: var(--bg-color-section3);
+a{
+  color: var(--base-text-ligt);
+  text-decoration: none;
 }
 
-a{
-  text-decoration: none;
-  color: var(--base-text-ligt);
+li a:hover{
+  color: var(--bg-color-section3);
 }
 
 .hero-area{
   display: flex;
-  height: 100%;
   justify-content: space-between;
   align-items: center;
+
+  height: 100%;
 }
 
 .hero-text{
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   margin-left: 80px;
 }
 
 h1{
-  font-size: 80px;
-  color: #E7AB79;
+  color: var(--bg-color-section4);
+  font-size: 100px;
+  margin-bottom: 75px;
 }
 
-p{
-  font-size: 40px;
+.hero-text p{
+  font-size: 50px;
   font-weight: 300;
-}
-
-.button{
-  display: flex;
-  background-color: var(--bg-color-section3);
-  border: none;
-  border-radius: 25px;
-  color: var(--base-text-ligt);
-  font-size: 25px;
-  width: 200px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 300;
-  margin-top: 20px;
-}
-
-.button:hover{
-  background-color: var(--bg-color-section4);
 }
 
 .social-media{
-  margin-bottom: 150px;
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 150px;
+  margin-right: 20px;
 }
 
 .media{
@@ -120,20 +110,72 @@ svg:hover{
   border-radius: 10px;
 }
 
-
-
-
-
 /* Final Hero section */
+
+
+/***********************************************/
+/***********************************************/
+
 
 
 /* Inici About Me section */
 .about-me-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
   background-color: var(--bg-color-section2);
   height: 500px;
+  padding: 80px;
+}
+
+.about-me-section h2{
+  color: var(--bg-color-section4);
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.about-me-section p{
+  color: var(--base-text-ligt);
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--bg-color-section4);
+  border-radius: 25px;
+  color: var(--base-text-ligt);
+  font-size: 25px;
+  font-weight: 300;
+  height: 50px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.button:hover{
+  background-color: var(--bg-color-section1);
+}
+
+
+.headshot img{
+  border: 2px solid var(--bg-color-section1);
+  border-radius: 50%;
+  height: 200px;
 }
 
 /* Final About Me section */
+
+
+
+/***********************************************/
+/***********************************************/
+
 
 
 /* Inici Projects section */
@@ -143,6 +185,12 @@ svg:hover{
 }
 
 /* Final Projects section */
+
+
+/***********************************************/
+/***********************************************/
+
+
 
 
 /* Inici Footer section */
