@@ -198,12 +198,12 @@ svg:hover{
 .projects-section h2{
   color: var(--bg-color-section1);
   font-size: 50px;
-  margin-bottom: 50px;
 }
 
 .projects-container{
   display: flex;
   justify-content: space-around;
+  margin: 20px 0px;
 }
 
 
