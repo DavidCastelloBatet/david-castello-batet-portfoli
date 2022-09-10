@@ -23,7 +23,7 @@ Projecte 3:
 link a web: https://pizza-castello-react-demo.netlify.app/
 link a github: https://github.com/DavidCastelloBatet/pizza-react-responsive-web
 titol: Pizza Eat UI
-descripcio: Web for a pizzeria
+descripcio: Web for a Pizzeria
 tecnologies: React JS
 
 Projecte 4:
@@ -37,3 +37,6 @@ tecnologies: React JS
 linkedin: https://www.linkedin.com/in/davidcastellobatet/
 twitter: https://twitter.com/CastelloBatet
 github: https://github.com/DavidCastelloBatet
+
+## Logos svg social-media
+
