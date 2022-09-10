@@ -271,8 +271,41 @@ svg:hover{
 
 /* Inici Footer section */
 .footer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
   background-color: var(--bg-color-section2);
-  height: 500px;
+  
 }
+
+.footer-section h2{
+  color: var(--bg-color-section4);
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.footer-section p{
+  color: var(--base-text-ligt);
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-section h3{
+  background-color: black;
+  color: var(--base-text-ligt);
+  height: 100px;
+  padding-top:20px;
+  text-align: center;
+  width: 100vw;
+}
+
+.mail{
+  color: var(--bg-color-section4);
+}
+
+
 
 /* Final Footer section */
