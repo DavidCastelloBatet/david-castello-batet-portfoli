@@ -1,3 +1,6 @@
+# Notes del Projecte de Portfoli v.1.1
+Media Query modificat a 1100px
+
 # Notes del Projecte de Portfoli v.1
 Basic Portfoli project with HTML5, CSS3 and JS
 
