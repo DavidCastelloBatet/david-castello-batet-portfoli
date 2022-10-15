@@ -321,8 +321,44 @@ svg:hover{
   width: 100vw;
 }
 
-.mail{
-  color: var(--bg-color-section4);
+.formulari{
+  display:flex;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px var(--bg-color-section1) ;
+  flex-direction: column;
+  background-color: var(--bg-color-section3);
+  padding: 20px;
+  width: 40vw;
+}
+
+.formulari input, .formulari textarea{
+  background-color: var(--bg-color-section4);
+  border: 1px solid  var(--bg-color-section1);
+  border-radius: 25px;
+  color: var(--base-text-ligt);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+  outline: var(--bg-color-section1);
+  padding: 20px;
+  width: 90%;
+}
+
+.formulari button{
+  background-color: var(--bg-color-section2);
+  border: 1px solid  var(--bg-color-section1);
+  border-radius: 25px;
+  color: var(--base-text-ligt);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;  
+  padding: 10px;
+  width: 50%;
+}
+
+.formulari button:hover{
+  background-color: var(--bg-color-section1);
+
 }
 
 
@@ -402,4 +438,13 @@ svg:hover{
   .footer-section h3{
     font-size: 15px;
   }
+
+  .formulari{
+    width: 60vw;
+  }
+
+  .formulari input, .formulari textarea, .formulari button{
+    font-size: 15px;
+  }
+  
 }

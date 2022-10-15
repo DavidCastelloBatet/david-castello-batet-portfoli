@@ -15,6 +15,7 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
             rel="stylesheet"
         />
+
         <link rel="stylesheet" href="./css/style.css" />
         <script
             defer
@@ -116,9 +117,9 @@
                 <div class="information">
                     <h2>About Me</h2>
                     <p>
-                        Hello, my name is David and I am an enthusiastic web
-                        developer. Click on button and get to know me a little
-                        more.
+                        Hello, my name is David and I am an enthusiastic web and
+                        apps developer. Click on button and get to know me a
+                        little more.
                     </p>
                     <div class="button">
                         <a href="./media/cv/EnglishCV.pdf" target="_blank"
@@ -138,7 +139,7 @@
 
             <!-- Inici projects-section -->
             <section id="projects-section" class="projects-section">
-                <h2>My Projects</h2>
+                <h2>My Personal Projects</h2>
                 <div class="projects-container">
                     <!--projecte 1-->
                     <div class="project-card">
@@ -276,10 +277,38 @@
         <!-- Inici footer-section -->
         <footer id="footer-section" class="footer-section">
             <h2>Contact Me</h2>
-            <p>
-                Mail to :
-                <span class="mail">davidcastellobatet@protonmail.com</span>
-            </p>
+            <form
+                target="_blank"
+                action="https://formsubmit.co/davidcastellobatet@protonmail.com"
+                method="POST"
+            >
+                <div class="formulari">
+                    <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Full Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <textarea
+                        placeholder="Your Message"
+                        class="form-control"
+                        name="message"
+                        rows="10"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="">Submit Form</button>
+                </div>
+            </form>
+
             <h3>
                 Copyright &copy;
                 <script>
