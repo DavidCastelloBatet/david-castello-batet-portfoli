@@ -1,332 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>David Castelló Batet - Junior Web Development</title>
-        <link
-            rel="shortcut icon"
-            href="./media/images/favicon.ico"
-            type="image/x-icon"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>David Castelló Batet - Junior Web Development</title>
+    <link
+      rel="shortcut icon"
+      href="./media/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/308e48b010.js"
+      crossorigin="anonymus"
+    ></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- Inici header/hero section -->
+    <header class="hero">
+      <nav>
+        <img
+          class="logo"
+          src="./media/images/logo.png"
+          alt="David Castelló - Logo"
+          title="David Castelló - Logo"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
-            rel="stylesheet"
-        />
-
-        <link rel="stylesheet" href="./css/style.css" />
-        <script
-            defer
-            src="https://kit.fontawesome.com/308e48b010.js"
-            crossorigin="anonymus"
-        ></script>
-        <script defer src="./js/index.js"></script>
-    </head>
-    <body>
-        <!-- Inici header/hero section -->
-        <header class="hero">
-            <nav>
-                <img
-                    class="logo"
-                    src="./media/images/logo.png"
-                    alt="David Castelló - Logo"
-                    title="David Castelló - Logo"
-                />
-                <ul id="nav-list" class="nav-list">
-                    <li><a href="#about-me-section">About Me</a></li>
-                    <li><a href="#projects-section">My Projects</a></li>
-                    <li><a href="#footer-section">Contact Me</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-            <div class="hero-area">
-                <div class="hero-text">
-                    <h1>David Castelló Batet</h1>
-                    <p>Junior Web & App Developer</p>
-                    <div class="llenguatges">
-                        <h3>Languages ​​& Technologies</h3>
-                        <p>HTML5, CSS3, JS +EM6, React</p>
-                        <p>PHP, MySQL, WordPress</p>
-                        <p>Dart, Flutter</p>
-                    </div>
-                </div>
-                <div class="social-media">
-                    <a
-                        href="https://www.linkedin.com/in/davidcastellobatet/"
-                        target="_blank"
-                        class="media"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="#fff"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                            />
-                        </svg>
-                    </a>
-                    <a
-                        href="https://twitter.com/CastelloBatet"
-                        target="_blank"
-                        class="media"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="#fff"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"
-                            />
-                        </svg>
-                    </a>
-                    <a
-                        href="https://github.com/DavidCastelloBatet"
-                        target="_blank"
-                        class="media"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="#fff"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"
-                            />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </header>
-        <!-- Final header/hero section -->
-
-        <main>
-            <!-- Inici about-me-section -->
-            <section id="about-me-section" class="about-me-section">
-                <div class="information">
-                    <h2>About Me</h2>
-                    <p>
-                        Hello, my name is David and I am an enthusiastic web and
-                        apps developer. Click on button and get to know me a
-                        little more.
-                    </p>
-                    <div class="button">
-                        <a href="./media/cv/EnglishCV.pdf" target="_blank"
-                            >Myself</a
-                        >
-                    </div>
-                </div>
-                <div class="headshot">
-                    <img
-                        src="./media/images/img-perfil.jpeg"
-                        alt="David's image"
-                        title="David's image"
-                    />
-                </div>
-            </section>
-            <!-- Final about-me-section -->
-
-            <!-- Inici projects-section -->
-            <section id="projects-section" class="projects-section">
-                <h2>My Personal Projects</h2>
-                <div class="projects-container">
-                    <!--projecte 1-->
-                    <div class="project-card">
-                        <img
-                            src="./media/project-images/projecte1.png"
-                            alt="TGIF - Transparent Goverment in Fact"
-                            title="TGIF - Transparent Goverment in Fact"
-                            class="project-image"
-                        />
-                        <div class="description">
-                            <h3>TGIF - Transp. Gov. in Fact</h3>
-                            <p class="subtext">
-                                TGIF works to disclose information in forms that
-                                the public can readily find and use.
-                            </p>
-                        </div>
-                        <div class="buttons-links">
-                            <h4>HTML5, CSS3 and JS</h4>
-                            <p class="subtext">View here</p>
-                            <div class="links-container">
-                                <a
-                                    href="https://davidcastellobatet.github.io/TGIF/"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Web</a
-                                >
-                                <a
-                                    href="https://github.com/DavidCastelloBatet/TGIF"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Code</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <!--projecte 2-->
-                    <div class="project-card">
-                        <img
-                            src="./media/project-images/projecte2.png"
-                            alt="Meteo Finder"
-                            title="Meteo Findert"
-                            class="project-image"
-                        />
-                        <div class="description">
-                            <h3>Meteo Finder</h3>
-                            <p class="subtext">
-                                Temperature, sun, wind... in your city
-                            </p>
-                        </div>
-                        <div class="buttons-link">
-                            <h4>React Js</h4>
-                            <p class="subtext">View here</p>
-                            <div class="links-container">
-                                <a
-                                    href="https://zen-curran-211455.netlify.app/"
-                                    target="_blank"
-                                    class="link-button"
-                                    >Web</a
-                                >
-                                <a
-                                    href="https://github.com/DavidCastelloBatet/Meteo-React-App-v1"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Code</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <!--projecte 3-->
-                    <div class="project-card">
-                        <img
-                            src="./media/project-images/projecte3.png"
-                            alt="Pizza Eat UI"
-                            title="Pizza Eat UI"
-                            class="project-image"
-                        />
-                        <div class="description">
-                            <h3>Pizza Eat UI</h3>
-                            <p class="subtext">Web UI for a Pizzeria</p>
-                        </div>
-                        <div class="buttons-link">
-                            <h4>React Js</h4>
-                            <p class="subtext">View here</p>
-                            <div class="links-container">
-                                <a
-                                    href="https://pizza-castello-react-demo.netlify.app/"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Web</a
-                                >
-                                <a
-                                    href="https://github.com/DavidCastelloBatet/pizza-react-responsive-web"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Code</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <!--projecte 4-->
-                    <div class="project-card">
-                        <img
-                            src="./media/project-images/projecte4.png"
-                            alt="Crypto Tracker"
-                            title="Crypto Trackert"
-                            class="project-image"
-                        />
-                        <div class="description">
-                            <h3>Crypto Tracker</h3>
-                            <p class="subtext">Web for a crypto values</p>
-                        </div>
-                        <div class="buttons-link">
-                            <h4>React Js</h4>
-                            <p class="subtext">View here</p>
-                            <div class="links-container">
-                                <a
-                                    href="https://cripto-moneda-react-app-v1.netlify.app/"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Web</a
-                                >
-                                <a
-                                    href="https://github.com/DavidCastelloBatet/crypto-tracker-react-app-v1"
-                                    class="link-button"
-                                    target="_blank"
-                                    >Code</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Final projects-section -->
-        </main>
-        <!-- Inici footer-section -->
-        <footer id="footer-section" class="footer-section">
-            <h2>Contact Me</h2>
-            <form
-                target="_blank"
-                action="https://formsubmit.co/davidcastellobatet@protonmail.com"
-                method="POST"
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about-me-section">About Me</a></li>
+          <li><a href="#projects-section">My Projects</a></li>
+          <li><a href="#footer-section">Contact Me</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1>David Castelló Batet</h1>
+          <p>Junior Web & App Developer</p>
+          <div class="llenguatges">
+            <h3>Languages ​​& Technologies</h3>
+            <p>HTML5, CSS3, JS +EM6, React</p>
+            <p>PHP, MySQL, WordPress</p>
+            <p>Dart, Flutter</p>
+          </div>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/davidcastellobatet/"
+            target="_blank"
+            class="media"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#fff"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
             >
-                <div class="formulari">
-                    <input
-                        type="text"
-                        name="name"
-                        class="form-control"
-                        placeholder="Full Name"
-                        required
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        class="form-control"
-                        placeholder="Email Address"
-                        required
-                    />
-                    <textarea
-                        placeholder="Your Message"
-                        class="form-control"
-                        name="message"
-                        rows="10"
-                        required
-                    ></textarea>
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/CastelloBatet"
+            target="_blank"
+            class="media"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#fff"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/DavidCastelloBatet"
+            target="_blank"
+            class="media"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#fff"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Final header/hero section -->
 
-                    <button type="submit" class="">Submit Form</button>
-                </div>
-            </form>
+    <main>
+      <!-- Inici about-me-section -->
+      <section id="about-me-section" class="about-me-section">
+        <div class="information">
+          <h2>About Me</h2>
+          <p>
+            Hello, my name is David and I am an enthusiastic web and apps
+            developer. Click on button and get to know me a little more.
+          </p>
+          <div class="button">
+            <a href="./media/cv/EnglishCV.pdf" target="_blank">Myself</a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img
+            src="./media/images/img-perfil.jpeg"
+            alt="David's image"
+            title="David's image"
+          />
+        </div>
+      </section>
+      <!-- Final about-me-section -->
 
-            <h3>
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                <span class="nom"> - David Castelló Batet</span> - All Rights
-                Reserved
-            </h3>
-            <p class="secure">
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                    <img
-                        style="border: 0; width: 88px; height: 31px"
-                        src="http://jigsaw.w3.org/css-validator/images/vcss"
-                        alt="¡CSS Válido!"
-                    />
-                </a>
-            </p>
-        </footer>
-        <!-- Final footer-section -->
-    </body>
+      <!-- Inici projects-section -->
+      <section id="projects-section" class="projects-section">
+        <h2>My Personal Projects</h2>
+        <div class="projects-container">
+          <!--projecte 1-->
+          <div class="project-card">
+            <img
+              src="./media/project-images/projecte1.png"
+              alt="TGIF - Transparent Goverment in Fact"
+              title="TGIF - Transparent Goverment in Fact"
+              class="project-image"
+            />
+            <div class="description">
+              <h3>TGIF - Transp. Gov. in Fact</h3>
+              <p class="subtext">
+                TGIF works to disclose information in forms that the public can
+                readily find and use.
+              </p>
+            </div>
+            <div class="buttons-links">
+              <h4>HTML5, CSS3 and JS</h4>
+              <p class="subtext">View here</p>
+              <div class="links-container">
+                <a
+                  href="https://davidcastellobatet.github.io/TGIF/"
+                  class="link-button"
+                  target="_blank"
+                  >Web</a
+                >
+                <a
+                  href="https://github.com/DavidCastelloBatet/TGIF"
+                  class="link-button"
+                  target="_blank"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--projecte 2-->
+          <div class="project-card">
+            <img
+              src="./media/project-images/projecte2.png"
+              alt="Meteo Finder"
+              title="Meteo Findert"
+              class="project-image"
+            />
+            <div class="description">
+              <h3>Meteo Finder</h3>
+              <p class="subtext">Temperature, sun, wind... in your city</p>
+            </div>
+            <div class="buttons-link">
+              <h4>React Js</h4>
+              <p class="subtext">View here</p>
+              <div class="links-container">
+                <a
+                  href="https://zen-curran-211455.netlify.app/"
+                  target="_blank"
+                  class="link-button"
+                  >Web</a
+                >
+                <a
+                  href="https://github.com/DavidCastelloBatet/Meteo-React-App-v1"
+                  class="link-button"
+                  target="_blank"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--projecte 3-->
+          <div class="project-card">
+            <img
+              src="./media/project-images/projecte3.png"
+              alt="Pizza Eat UI"
+              title="Pizza Eat UI"
+              class="project-image"
+            />
+            <div class="description">
+              <h3>Pizza Eat UI</h3>
+              <p class="subtext">Web UI for a Pizzeria</p>
+            </div>
+            <div class="buttons-link">
+              <h4>React Js</h4>
+              <p class="subtext">View here</p>
+              <div class="links-container">
+                <a
+                  href="https://pizza-castello-react-demo.netlify.app/"
+                  class="link-button"
+                  target="_blank"
+                  >Web</a
+                >
+                <a
+                  href="https://github.com/DavidCastelloBatet/pizza-react-responsive-web"
+                  class="link-button"
+                  target="_blank"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--projecte 4-->
+          <div class="project-card">
+            <img
+              src="./media/project-images/projecte4.png"
+              alt="Crypto Tracker"
+              title="Crypto Trackert"
+              class="project-image"
+            />
+            <div class="description">
+              <h3>Crypto Tracker</h3>
+              <p class="subtext">Web for a crypto values</p>
+            </div>
+            <div class="buttons-link">
+              <h4>React Js</h4>
+              <p class="subtext">View here</p>
+              <div class="links-container">
+                <a
+                  href="https://cripto-moneda-react-app-v1.netlify.app/"
+                  class="link-button"
+                  target="_blank"
+                  >Web</a
+                >
+                <a
+                  href="https://github.com/DavidCastelloBatet/crypto-tracker-react-app-v1"
+                  class="link-button"
+                  target="_blank"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Final projects-section -->
+    </main>
+    <!-- Inici footer-section -->
+    <footer id="footer-section" class="footer-section">
+      <h2>Contact Me</h2>
+      <form
+        target="_blank"
+        action="https://formsubmit.co/davidcastellobatet@protonmail.com"
+        method="POST"
+        autocomplete="off"
+      >
+        <div class="formulari">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Email Address"
+            required
+          />
+          <textarea
+            placeholder="Your Message"
+            class="form-control"
+            name="message"
+            rows="10"
+            required
+          ></textarea>
+
+          <button type="submit">Submit Form</button>
+        </div>
+      </form>
+
+      <h3>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <span class="nom"> - David Castelló Batet</span> - All Rights Reserved
+      </h3>
+      <p class="secure">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img
+            style="border: 0; width: 88px; height: 31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!"
+          />
+        </a>
+      </p>
+    </footer>
+    <!-- Final footer-section -->
+  </body>
 </html>
