@@ -1,51 +1,45 @@
 /* Paràmetres inicials i variables */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-:root{
-  --bg-color-section1: #4C3A51;
+:root {
+  --bg-color-section1: #4c3a51;
   --bg-color-section2: #774360;
-  --bg-color-section3: #B25068;
-  --bg-color-section4: #E7AB79;
+  --bg-color-section3: #b25068;
+  --bg-color-section4: #e7ab79;
 
   --base-text-ligt: #ffffff;
   --base-text-dark: #000000;
 
   font-family: 'Poppins', sans-serif;
-
 }
 /* final Parametres inicials i variables */
 
-
 /***********************************************/
 /***********************************************/
-
-
-
 
 /* Inici Hero section */
-.hero{
+.hero {
   background-color: var(--bg-color-section1);
   color: var(--base-text-ligt);
   font-size: 40px;
   height: 100vh;
 }
 
-.logo{
+.logo {
   border-radius: 50%;
   height: 150px;
   margin: 20px;
 }
 
-.hamburger{
+.hamburger {
   display: none;
 }
 
-
-nav{
+nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -57,26 +51,24 @@ ul {
 
   font-size: 30px;
   list-style-type: none;
-  width: 600px;
+  width: 800px;
 }
 
-
-
-li{
+li {
   color: var(--base-text-ligt);
   text-decoration: none;
 }
 
-a{
+a {
   color: var(--base-text-ligt);
   text-decoration: none;
 }
 
-li a:hover{
+li a:hover {
   color: var(--bg-color-section3);
 }
 
-.hero-area{
+.hero-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,32 +76,32 @@ li a:hover{
   height: 100%;
 }
 
-.hero-text{
+.hero-text {
   margin-bottom: 200px;
   margin-left: 80px;
 }
 
-.hero-area > .hero-text > .llenguatges{
+.hero-area > .hero-text > .llenguatges {
   margin-top: 90px;
 }
 
-.hero-area > .hero-text > .llenguatges > p{
+.hero-area > .hero-text > .llenguatges > p {
   color: var(--base-text-ligt);
   font-size: 30px;
 }
 
-h1{
+h1 {
   color: var(--bg-color-section4);
   font-size: 100px;
   margin-bottom: 75px;
 }
 
-.hero-text p{
+.hero-text p {
   font-size: 50px;
   font-weight: 300;
 }
 
-.social-media{
+.social-media {
   display: flex;
   flex-direction: column;
 
@@ -117,27 +109,22 @@ h1{
   margin-right: 20px;
 }
 
-.media{
-  margin: 10px
+.media {
+  margin: 10px;
 }
 
-svg:hover{
+svg:hover {
   background-color: var(--bg-color-section3);
   border-radius: 10px;
 }
 
-
-
 /* Final Hero section */
 
-
 /***********************************************/
 /***********************************************/
-
-
 
 /* Inici About Me section */
-.about-me-section{
+.about-me-section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -146,21 +133,20 @@ svg:hover{
   padding: 80px;
 }
 
-.about-me-section h2{
+.about-me-section h2 {
   color: var(--bg-color-section4);
   font-size: 50px;
   margin-bottom: 50px;
 }
 
-.about-me-section p{
+.about-me-section p {
   color: var(--base-text-ligt);
   font-size: 30px;
   margin-bottom: 50px;
   margin-right: 80px;
-
 }
 
-.button{
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,12 +161,11 @@ svg:hover{
   width: 150px;
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--bg-color-section1);
 }
 
-
-.headshot img{
+.headshot img {
   border: 2px solid var(--bg-color-section1);
   border-radius: 50%;
   height: 200px;
@@ -188,15 +173,11 @@ svg:hover{
 
 /* Final About Me section */
 
-
-
 /***********************************************/
 /***********************************************/
-
-
 
 /* Inici Projects section */
-.projects-section{
+.projects-section {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -204,56 +185,56 @@ svg:hover{
   padding: 80px;
 }
 
-.projects-section h2{
+.projects-section h2 {
   color: var(--bg-color-section1);
   font-size: 50px;
 }
 
-.projects-container{
+.projects-container {
   display: flex;
   justify-content: space-around;
   margin: 20px 0px;
 }
 
-
-
-.project-card{
+.project-card {
   background: var(--bg-color-section4);
   border-radius: 10px;
-  box-shadow: 5px 5px 5px var(--bg-color-section1) ;
+  box-shadow: 5px 5px 5px var(--bg-color-section1);
   color: var(--base-text-ligt);
   height: 570px;
   width: 350px;
   margin: 10px;
 }
 
-.project-card h3, .project-card h4{
+.project-card h3,
+.project-card h4 {
   color: var(--bg-color-section1);
 }
 
-.project-image{
+.project-image {
   border-radius: 150%;
   margin: 25px;
   height: 40%;
   width: 220px;
 }
 
-.description, .buttons-link{
+.description,
+.buttons-link {
   margin: 0 20px;
   height: 25%;
 }
 
-.subtext{
+.subtext {
   font-size: 15px;
   font-weight: 300;
 }
 
-.links-container{
+.links-container {
   display: flex;
   justify-content: space-evenly;
 }
 
-.link-button{
+.link-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,22 +249,17 @@ svg:hover{
   width: 70px;
 }
 
-.link-button:hover{
+.link-button:hover {
   background-color: var(--bg-color-section1);
 }
 
-
 /* Final Projects section */
 
-
 /***********************************************/
 /***********************************************/
-
-
-
 
 /* Inici Footer section */
-.footer-section{
+.footer-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -291,50 +267,50 @@ svg:hover{
   background-color: var(--bg-color-section2);
 }
 
-.footer-section h2{
+.footer-section h2 {
   color: var(--bg-color-section4);
   font-size: 50px;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-.footer-section p{
+.footer-section p {
   color: var(--base-text-ligt);
   font-size: 30px;
-  
 }
 
-.footer-section h3{
+.footer-section h3 {
   background-color: black;
   color: var(--base-text-ligt);
   height: 100px;
   margin-top: 50px;
-  padding-top:50px;
+  padding-top: 50px;
   text-align: center;
   width: 100vw;
 }
 
-.secure{
+.secure {
   background-color: black;
   height: 50px;
   text-align: center;
   width: 100vw;
 }
 
-.formulari{
-  display:flex;
+.formulari {
+  display: flex;
   align-items: center;
   border-radius: 25px;
-  box-shadow: 5px 5px 5px var(--bg-color-section1) ;
+  box-shadow: 5px 5px 5px var(--bg-color-section1);
   flex-direction: column;
   background-color: var(--bg-color-section3);
   padding: 20px;
   width: 40vw;
 }
 
-.formulari input, .formulari textarea{
+.formulari input,
+.formulari textarea {
   background-color: var(--bg-color-section4);
-  border: 1px solid  var(--bg-color-section1);
+  border: 1px solid var(--bg-color-section1);
   border-radius: 25px;
   color: var(--base-text-ligt);
   font-family: 'Poppins', sans-serif;
@@ -345,31 +321,27 @@ svg:hover{
   width: 90%;
 }
 
-.formulari button{
+.formulari button {
   background-color: var(--bg-color-section2);
-  border: 1px solid  var(--bg-color-section1);
+  border: 1px solid var(--bg-color-section1);
   border-radius: 25px;
   color: var(--base-text-ligt);
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;  
+  font-size: 20px;
   padding: 10px;
   width: 50%;
 }
 
-.formulari button:hover{
+.formulari button:hover {
   background-color: var(--bg-color-section1);
-
 }
-
-
 
 /* Final Footer section */
 
-
 /* Media Queryes */
 
-@media only screen and (max-width: 1150px){
-  .hamburger{
+@media only screen and (max-width: 1150px) {
+  .hamburger {
     display: flex;
     background-color: transparent;
     color: var(--base-text-ligt);
@@ -378,73 +350,74 @@ svg:hover{
     align-self: flex-end;
   }
 
-  h1{
+  h1 {
     font-size: 70px;
   }
 
-  .hero-text p{
+  .hero-text p {
     font-size: 40px;
   }
 
-  ul{
+  ul {
     display: none;
     margin: 0px;
   }
 
-  ul.show{
+  ul.show {
     display: block;
     width: 70%;
     margin-top: -50px;
-    margin-left: -50px
+    margin-left: -50px;
   }
 
-  nav{
+  nav {
     background-color: var(--bg-color-section3);
     display: flex;
     flex-direction: column-reverse;
   }
 
-  a{
-    margin: 20px
+  a {
+    margin: 20px;
   }
-  
 
-  li a:hover{
+  li a:hover {
     color: var(--base-text-dark);
   }
 
-  .logo{
+  .logo {
     display: none;
   }
 
-  .about-me-section h2, .projects-section h2, .footer-section h2{
+  .about-me-section h2,
+  .projects-section h2,
+  .footer-section h2 {
     font-size: 40px;
   }
 
-  .about-me-section p{
+  .about-me-section p {
     font-size: 25px;
   }
 
-  .projects-container{
+  .projects-container {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .footer-section p{
+  .footer-section p {
     color: var(--base-text-ligt);
     font-size: 20px;
-    
   }
-  .footer-section h3{
+  .footer-section h3 {
     font-size: 15px;
   }
 
-  .formulari{
+  .formulari {
     width: 60vw;
   }
 
-  .formulari input, .formulari textarea, .formulari button{
+  .formulari input,
+  .formulari textarea,
+  .formulari button {
     font-size: 15px;
   }
-  
 }
